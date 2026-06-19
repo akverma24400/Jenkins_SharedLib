@@ -1,3 +1,3 @@
-def call(){
-  sh "trivy fs ."
+def call() {
+    sh 'trivy fs --scanners vuln .'
 }
